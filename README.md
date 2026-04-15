@@ -1,6 +1,6 @@
 # 癌症疼痛文本简化（Qwen 版本）
 
-这是整理后的精简项目版本，仅保留 **Qwen 相关新代码**，已去掉 Llama3.1-8B 的旧训练/评估脚本。
+这是整理后的精简项目版本,拥有癌症文本缩减功能。
 
 ## 1. 项目目标
 
@@ -99,7 +99,3 @@ python scripts/evaluate_commercial_api.py --test_csv output/qwen_original/test_s
 - `max_tokens=200`
 - 其余参数走平台默认值
 
-## 7. 说明
-
-- 本精简版只保留 Qwen 主线代码，不包含历史 Llama 迭代脚本。
-- 大模型权重、训练产物、临时输出均被 `.gitignore` 忽略，不建议上传到 GitHub。
