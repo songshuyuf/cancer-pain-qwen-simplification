@@ -1,0 +1,14 @@
+torch
+transformers>=4.37.0
+peft
+datasets
+pandas
+scikit-learn
+jieba
+numpy
+tqdm
+rouge
+bert-score
+openai
+python-dotenv
+dashscope
